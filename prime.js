@@ -1,15 +1,12 @@
 let number=90;
 let prime=true;
-for(let i=2;i<=num;i++)
-{
-   if(number==0)
+for(let i=2;i<num;i++){
+   if(number%i==0)
      prime=false;
 }
-if(prime)
-{
+if(prime){
    console.log("its prime")
 }
-else
-{
+else{
 console.log("its not prime")
 }   
